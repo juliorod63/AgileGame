@@ -6,7 +6,12 @@
     
 }
 
+@section Scripts{
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>"
+}
+
 <script>
+
     jQuery(document).ready( 
     jQuery(function () {
         jQuery(".draggable").draggable({
@@ -48,7 +53,7 @@
                 <h3 style="text-align:center">@column.Title</h3> 
 
                 <div class="column" style="min-height: 600px" id="@column.Id">
-
+                    
                     @foreach (var card in column.Cards)
                     {
                         <div class="card draggable blue-grey darken-1 " id="@card.Id">
