@@ -36,3 +36,4 @@ C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\AgileGame.pdb
 C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\AgileGame.genruntimeconfig.cache
 C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\AgileGame.csproj.CopyComplete
 C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\Razor\Pages\kanban.cshtml.g.cs
+C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\Razor\Pages\Board\Board.cshtml.g.cs

@@ -1,10 +1,39 @@
 @page
 @model KanbanModel
 @{
-    ViewData["Title"] = "Kanban Game";
+    ViewData["Title"] = "Tableros";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Tablero Kanban</h1>
-    <p>Vamos a trabajar con el Kanban</p>
+<div class="container"> 
+    <div class="row">
+        <h1 >Tableros</h1>
+    </div>
+    <div class="row">
+        <h5>Selecciona un Tablero</h5>
+    </div>
+
+    <div class="row">
+    @foreach(var board in Model.Tableros.Boards)
+        {
+           <div class="card s12 m6"> 
+               <div style="float: left; margin-right: 2em; width: 22em;">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                        <span class="card-title">
+                             @board.Title 
+                        </span>
+                        <div class="card-action">
+                            <a asp-page="/Board/Board" 
+                            asp-route-nombre="@board.Title" 
+                            asp-route-id="@board.Id" > Ver </a>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+        }
+    </div>
+    
 </div>

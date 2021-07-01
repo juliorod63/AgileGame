@@ -12,12 +12,26 @@ namespace AgileGame.Pages
     {
         private readonly ILogger<PrivacyModel> _logger;
 
+        public BoardList Tableros {get; set;}
+
         public KanbanModel(ILogger<PrivacyModel> logger)
         {
             _logger = logger;
         }
-                public void OnGet()
+        public void OnGet()
         {
+            Tableros = new BoardList();
+
+            var tablero = new BoardList.Board();
+            tablero.Title = "CTE";
+            tablero.Id = 1;
+            Tableros.Boards.Add(tablero);
+
+            var tablero2= new BoardList.Board();
+            tablero2.Title = "DES";
+            tablero2.Id = 2;
+            Tableros.Boards.Add(tablero2);
+
         }
 
     }
