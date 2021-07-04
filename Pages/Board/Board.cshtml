@@ -47,7 +47,14 @@
     </div>
 
     <div class="row">
-        @foreach (var column in Model.Columns)
+        <div class="col s10">
+            <a asp-page="AddCard" class="wave-effect waves-light btn">
+                Agregar Tarjeta
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var column in Model.Columnas)
         {
             <div class="col m4">
                 <h3 style="text-align:center">@column.Title</h3> 
@@ -58,8 +65,10 @@
                     {
                         <div class="card draggable blue-grey darken-1 " id="@card.Id">
                             <div class="card-content white-text">
-                                <p>@card.Content</p>
+                                <p>@card.Titulo</p>
+                                <p>€ @card.Valor | Hs: @card.Horas</p>
                             </div>
+
                         </div>
                     }
                 </div>
