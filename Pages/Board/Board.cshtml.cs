@@ -55,18 +55,24 @@ namespace AgileGame.Pages.Board
             Column ToDo = new Column();
             ToDo.Title = "To Do";
             ToDo.Id = 2;
+            ToDo.Limite =6;
+
             
             Columnas.Add(ToDo);
 
             Column InProgress = new Column();
             InProgress.Title = "En Progreso";
             InProgress.Id = 3;
+            InProgress.Limite =3;
+
             
             Columnas.Add(InProgress);
 
             Column Blocked = new Column();
             Blocked.Title = "Bloqueada";
             Blocked.Id = 4;
+            Blocked.Limite =3;
+
             Columnas.Add(Blocked);
 
             Column Done = new Column();

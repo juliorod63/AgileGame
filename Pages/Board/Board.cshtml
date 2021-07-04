@@ -23,18 +23,10 @@
             drop: function (event, ui) {
                 var dropped = ui.draggable;
                 var droppedOn = $(this);
+                console.log("columna: " + ui.columnId);
                 $(dropped).detach().css({ top: 0, left: 0 }).appendTo(droppedOn);
 
-                $.ajax({
-                    type: "POST",
-                    dataType: "json",
-                    contentType: "application/json",
-                    url: "/api/Board/movecard",
-                    beforeSend: function (request) {
-                        request.setRequestHeader("RequestVerificationToken", $('#RequestVerificationToken').val());
-                    },
-                    data: JSON.stringify({ cardId: dropped[0].id, columnId: droppedOn[0].id }),
-                });
+
             }
         });
     }));
@@ -57,7 +49,8 @@
         @foreach (var column in Model.Columnas)
         {
             <div class="col m4">
-                <h3 style="text-align:center">@column.Title</h3> 
+                <h3 style="text-align:center">@column.Title (@column.Limite) </h3> 
+                <hr/>
 
                 <div class="column" style="min-height: 600px" id="@column.Id">
                     
@@ -66,8 +59,12 @@
                         <div class="card draggable blue-grey darken-1 " id="@card.Id">
                             <div class="card-content white-text">
                                 <p>@card.Titulo</p>
-                                <p>€ @card.Valor | Hs: @card.Horas</p>
-                            </div>
+                               
+                                
+                                    <div class="col m12"> € @card.Valor</div>
+                                    <div class="col m12"> Hs:  @card.Restantes / @card.Horas</div>
+                                
+                            </div> 
 
                         </div>
                     }

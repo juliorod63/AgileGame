@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Julio Rodriguez\\AgileGame\\Pages\\Board\\Board.cshtml",
+      "TargetPath": "Pages\\Board\\Board.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Julio Rodriguez\\AgileGame\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -14427,8 +14432,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Julio Rodriguez\\AgileGame\\Pages\\kanban.cshtml",
-      "TargetPath": "Pages\\kanban.cshtml",
+      "FilePath": "c:\\Users\\Julio Rodriguez\\AgileGame\\Pages\\Board\\AddCard.cshtml",
+      "TargetPath": "Pages\\Board\\AddCard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Julio Rodriguez\\AgileGame\\Pages\\Kanban.cshtml",
+      "TargetPath": "Pages\\Kanban.cshtml",
       "FileKind": "mvc"
     },
     {

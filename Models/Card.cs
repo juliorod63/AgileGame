@@ -22,8 +22,9 @@ namespace AgileGame.Models{
     public int Valor {get;set;}
 
     public int Horas {get;set;}
+    public int Restantes {get;set;}
 
     }
-
+    
 
 }
