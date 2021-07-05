@@ -29,6 +29,17 @@
 
             }
         });
+
+         $.ajax({
+            type: "POST",
+            dataType: "json",
+            contentType: "application/json",
+            url: "/api/Board/movecard",
+            beforeSend: function (request) {
+                request.setRequestHeader("RequestVerificationToken", $('#RequestVerificationToken').val());
+            },
+            data: JSON.stringify({ cardId: dropped[0].id, columnId: droppedOn[0].id }),
+        });
     }));
 </script>
 
