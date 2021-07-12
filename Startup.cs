@@ -25,6 +25,7 @@ namespace AgileGame
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllers();
             services.AddDbContext<AgileGameContext>();
         }
 
@@ -52,6 +53,8 @@ namespace AgileGame
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllerRoute("default", "api/{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllers();
             });
         }
     }

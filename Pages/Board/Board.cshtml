@@ -23,23 +23,25 @@
             drop: function (event, ui) {
                 var dropped = ui.draggable;
                 var droppedOn = $(this);
-                console.log("columna: " + ui.columnId);
+                
                 $(dropped).detach().css({ top: 0, left: 0 }).appendTo(droppedOn);
-
-
+                    console.log(dropped[0].id, droppedOn[0].id);
+                    $.ajax({
+                        type: "POST",
+                        dataType: "json",
+                        contentType: "application/json",
+                        url: "/api/Tarjeta/movertarjeta",
+                        beforeSend: function (request) {
+                            request.setRequestHeader("RequestVerificationToken", $('#RequestVerificationToken').val());
+                        },
+                        data: JSON.stringify({ cardId: parseInt( dropped[0].id), columnaId: parseInt(droppedOn[0].id) }),
+                });
+                
             }
         });
+        
 
-         $.ajax({
-            type: "POST",
-            dataType: "json",
-            contentType: "application/json",
-            url: "/api/Board/movecard",
-            beforeSend: function (request) {
-                request.setRequestHeader("RequestVerificationToken", $('#RequestVerificationToken').val());
-            },
-            data: JSON.stringify({ cardId: dropped[0].id, columnId: droppedOn[0].id }),
-        });
+         
     }));
 </script>
 

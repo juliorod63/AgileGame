@@ -39,8 +39,10 @@ namespace AgileGame.Pages.Board
             
             Tarjetas = await db.Tarjetas.ToListAsync();
             foreach(Card c in Tarjetas){
-                Console.WriteLine(c.Titulo);
-                Columnas[0].Cards.Add(c);
+                Console.WriteLine(c.Titulo + "-" + c.ColumnaID);
+                if(c.TableroID == Id){
+                    Columnas[c.ColumnaID].Cards.Add(c);
+                }
             }
             
         }
@@ -114,7 +116,11 @@ namespace AgileGame.Pages.Board
         }
 
 
+
+
     }
+
+
 
 
 }

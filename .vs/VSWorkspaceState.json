@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers"
   ],
-  "SelectedNode": "\\Startup.cs",
+  "SelectedNode": "\\Controllers\\TarjetaController.cs",
   "PreviewInSolutionExplorer": false
 }
