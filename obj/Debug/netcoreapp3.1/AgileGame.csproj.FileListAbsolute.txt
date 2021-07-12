@@ -76,3 +76,8 @@ C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\AgileGame.dll
 C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\AgileGame.pdb
 C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\AgileGame.genruntimeconfig.cache
 C:\Users\Julio Rodriguez\AgileGame\obj\Debug\netcoreapp3.1\AgileGame.csproj.AssemblyReference.cache
+C:\Users\Julio Rodriguez\AgileGame\bin\Debug\netcoreapp3.1\agilegameapp\web.config
+C:\Users\Julio Rodriguez\AgileGame\bin\Debug\netcoreapp3.1\agilegameapp\AgileGame.deps.json
+C:\Users\Julio Rodriguez\AgileGame\bin\Debug\netcoreapp3.1\agilegameapp\AgileGame.runtimeconfig.json
+C:\Users\Julio Rodriguez\AgileGame\bin\Debug\netcoreapp3.1\agilegameapp\appsettings.Development.json
+C:\Users\Julio Rodriguez\AgileGame\bin\Debug\netcoreapp3.1\agilegameapp\appsettings.json

@@ -50,13 +50,13 @@ namespace AgileGame.Pages.Board
 
             Column Backlog = new Column();
             Backlog.Title= "Backlog";
-            Backlog.Id = 1;
+            Backlog.Id = 0;
             // CargarTarjetas(Backlog);
             Columnas.Add(Backlog);
 
             Column ToDo = new Column();
             ToDo.Title = "To Do";
-            ToDo.Id = 2;
+            ToDo.Id = 1;
             ToDo.Limite =6;
 
             
@@ -64,7 +64,7 @@ namespace AgileGame.Pages.Board
 
             Column InProgress = new Column();
             InProgress.Title = "En Progreso";
-            InProgress.Id = 3;
+            InProgress.Id = 2;
             InProgress.Limite =3;
 
             
@@ -72,14 +72,14 @@ namespace AgileGame.Pages.Board
 
             Column Blocked = new Column();
             Blocked.Title = "Bloqueada";
-            Blocked.Id = 4;
+            Blocked.Id = 3;
             Blocked.Limite =3;
 
             Columnas.Add(Blocked);
 
             Column Done = new Column();
             Done.Title = "Finalizado";
-            Done.Id=5;
+            Done.Id=4;
             
             Columnas.Add(Done);
         }
