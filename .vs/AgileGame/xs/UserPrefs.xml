@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{ADFEE0B1-D9B1-44E3-9C5E-825A6ED8E00C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Board/Card/AddCard.cshtml.cs">
+    <Files>
+      <File FileName="Pages/Board/Card/AddCard.cshtml" Line="23" Column="11" />
+      <File FileName="Pages/Board/Card/AddCard.cshtml.cs" Line="45" Column="33" />
+      <File FileName="Pages/Board/Board.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AgileGame" expanded="True">
+            <Node name="AgileGame" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Board" expanded="True">
+                  <Node name="Card" expanded="True">
+                    <Node name="AddCard.cshtml" expanded="True">
+                      <Node name="AddCard.cshtml.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.AgileGame PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

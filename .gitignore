@@ -1,1 +1,1 @@
-*.dll, *.pdb
+*.dll, *.pdb, *.so, *.dylib

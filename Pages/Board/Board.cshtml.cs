@@ -22,7 +22,7 @@ namespace AgileGame.Pages.Board
 
         public List<Column> Columnas { get; set; } = new List<Column>();
 
-        private List<Card> Tarjetas = new List<Card>();
+        private List<AgileGame.Models.Card> Tarjetas = new List<AgileGame.Models.Card>();
         public BoardModel(ILogger<PrivacyModel> logger, AgileGameContext db) 
         {
             this.db = db;
@@ -38,8 +38,8 @@ namespace AgileGame.Pages.Board
 
             
             Tarjetas = await db.Tarjetas.ToListAsync();
-            foreach(Card c in Tarjetas){
-                Console.WriteLine(c.Titulo + "-" + c.ColumnaID);
+            foreach(AgileGame.Models.Card c in Tarjetas){
+                //Console.WriteLine(c.Titulo + "-" + c.ColumnaID);
                 if(c.TableroID == Id){
                     Columnas[c.ColumnaID].Cards.Add(c);
                 }
@@ -95,7 +95,7 @@ namespace AgileGame.Pages.Board
                 
                 for(int k=1; k<=7; k++){
                     
-                    Card c= new Card();
+                    AgileGame.Models.Card c= new AgileGame.Models.Card();
                     c.Id = rnd.Next(1,max);
                     c.Titulo = "Tarea " + c.Id;
                     columna.Cards.Add(c);
@@ -103,12 +103,12 @@ namespace AgileGame.Pages.Board
                  return;
             }
 
-            Card c1= new Card();
+            AgileGame.Models.Card c1= new AgileGame.Models.Card();
             c1.Id = rnd.Next(1,max);
             c1.Titulo = "Tarea " + c1.Id;
             columna.Cards.Add(c1);
             
-            Card c2= new Card();
+            AgileGame.Models.Card c2= new AgileGame.Models.Card();
             c2.Id = rnd.Next(1,max);
             c2.Titulo = "Tarea " + c2.Id;
             columna.Cards.Add(c2);

@@ -53,7 +53,7 @@
 
     <div class="row">
         <div class="col s10">
-            <a asp-page="AddCard" class="wave-effect waves-light btn">
+            <a asp-page="/Board/Card/AddCard" asp-route-id=@Model.Id asp-route-name=@Model.Nombre class="wave-effect waves-light btn">
                 Agregar Tarjeta
             </a>
         </div>

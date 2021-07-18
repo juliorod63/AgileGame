@@ -1,0 +1,39 @@
+@page
+@model AddCardModel
+@{
+    ViewData["Title"] = "Agregar Tarjeta";
+}
+
+<div class="container">
+    <div class="row">
+        <h3 >Agregar Tarjeta en el Tablero  </h3> @Model.MiTablero.Title  @Model.MiTablero.Id;
+    </div>
+    <form class="col s12" asp-asp-controller="AddCard" method="post">
+    <div class="input-field col s12">
+        Titulo : <input asp-for="Tarjeta.Titulo" class="text" id="" /> 
+    </div>
+    <div class="input-field col s12">
+        Descripción: <input asp-for="Tarjeta.Descripcion" class="text" id=""/>
+    </div>
+    <div class="input-field col s12">
+        Valor: <input asp-for="Tarjeta.Valor" class="number" id=""/>
+    </div>
+    <div class="input-field col s12">
+        Horas: <input asp-for="Tarjeta.Horas" class="number" id=""/>
+    </div>
+    <div class="input-field col s12">
+        Hs Restantes: <input asp-for="Tarjeta.Restantes" class="number" id=""/>
+    </div>
+    
+    <input asp-for="Tarjeta.TableroID" type="hidden" value=@Model.MiTablero.Id/>
+    <input asp-for="MiTablero.Title" type="hidden" value=@Model.MiTablero.Title />
+    <input asp-for="MiTablero.Id" type="hidden" value=@Model.MiTablero.Id />
+
+
+    <div class="row">
+        <input type="submit" value="Guardar" class="btn">
+        <a asp-page="Board/Board" asp-route-nombre=@Model.MiTablero.Title asp-route-Id=@Model.MiTablero.Id class="btn">volver al Tablero</a>
+    </div>
+    </form>
+    
+</div>
