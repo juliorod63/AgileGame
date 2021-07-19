@@ -245,3 +245,8 @@ C:/Users/Julio Rodriguez/AgileGame/bin/Debug/netcoreapp3.1/agilegameapp/appsetti
 /Users/pc/Projects/AgileGame/obj/Debug/netcoreapp3.1/AgileGame.dll
 /Users/pc/Projects/AgileGame/obj/Debug/netcoreapp3.1/AgileGame.pdb
 /Users/pc/Projects/AgileGame/obj/Debug/netcoreapp3.1/AgileGame.genruntimeconfig.cache
+/Users/pc/Projects/AgileGame/bin/Debug/netcoreapp3.1/agilegameapp/agilegameapp/web.config
+/Users/pc/Projects/AgileGame/bin/Debug/netcoreapp3.1/agilegameapp/agilegameapp/AgileGame.deps.json
+/Users/pc/Projects/AgileGame/bin/Debug/netcoreapp3.1/agilegameapp/agilegameapp/AgileGame.runtimeconfig.json
+/Users/pc/Projects/AgileGame/bin/Debug/netcoreapp3.1/agilegameapp/agilegameapp/appsettings.Development.json
+/Users/pc/Projects/AgileGame/bin/Debug/netcoreapp3.1/agilegameapp/agilegameapp/appsettings.json

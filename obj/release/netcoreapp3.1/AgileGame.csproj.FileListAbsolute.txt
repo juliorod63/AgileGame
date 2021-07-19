@@ -1,78 +1,170 @@
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\appsettings.Development.json
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\appsettings.json
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\AgileGame.exe
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\AgileGame.deps.json
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\AgileGame.runtimeconfig.json
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\AgileGame.runtimeconfig.dev.json
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\AgileGame.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\AgileGame.pdb
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\AgileGame.Views.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\AgileGame.Views.pdb
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Data.Sqlite.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\SQLitePCLRaw.core.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\System.ComponentModel.Annotations.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\System.Text.Encodings.Web.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\System.Text.Json.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\Julio Rodriguez\AgileGame\bin\Release\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.csproj.AssemblyReference.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.AssemblyInfoInputs.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.AssemblyInfo.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.csproj.CoreCompileInputs.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.RazorAssemblyInfo.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.RazorAssemblyInfo.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\staticwebassets\AgileGame.StaticWebAssets.Manifest.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\staticwebassets\AgileGame.StaticWebAssets.xml
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\scopedcss\bundle\AgileGame.styles.css
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.TagHelpers.input.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.TagHelpers.output.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.RazorCoreGenerate.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\Board\AddCard.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\Board\Board.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\Kanban.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.RazorTargetAssemblyInfo.cache
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.RazorTargetAssemblyInfo.cs
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.Views.pdb
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.csproj.CopyComplete
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.dll
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.pdb
-C:\Users\Julio Rodriguez\AgileGame\obj\Release\netcoreapp3.1\AgileGame.genruntimeconfig.cache
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/appsettings.Development.json
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/appsettings.json
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/AgileGame.exe
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/AgileGame.deps.json
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/AgileGame.runtimeconfig.json
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/AgileGame.runtimeconfig.dev.json
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/AgileGame.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/AgileGame.pdb
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/AgileGame.Views.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/AgileGame.Views.pdb
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/SQLitePCLRaw.core.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/System.ComponentModel.Annotations.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/System.Text.Encodings.Web.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/System.Text.Json.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Julio Rodriguez/AgileGame/bin/Release/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.csproj.AssemblyReference.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.AssemblyInfoInputs.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.AssemblyInfo.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.csproj.CoreCompileInputs.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorAssemblyInfo.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorAssemblyInfo.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/staticwebassets/AgileGame.StaticWebAssets.Manifest.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/staticwebassets/AgileGame.StaticWebAssets.xml
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/scopedcss/bundle/AgileGame.styles.css
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.TagHelpers.input.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.TagHelpers.output.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorCoreGenerate.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Board/AddCard.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Board/Board.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Kanban.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorTargetAssemblyInfo.cache
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorTargetAssemblyInfo.cs
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.Views.pdb
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.csproj.CopyComplete
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.dll
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.pdb
+C:/Users/Julio Rodriguez/AgileGame/obj/Release/netcoreapp3.1/AgileGame.genruntimeconfig.cache
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/appsettings.Development.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/appsettings.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/web.config
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/AgileGame.deps.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/AgileGame.runtimeconfig.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/appsettings.Development.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/appsettings.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/AgileGame.deps.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/AgileGame.runtimeconfig.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/AgileGame.runtimeconfig.dev.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/AgileGame.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/AgileGame.pdb
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/AgileGame.Views.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/AgileGame.Views.pdb
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/SQLitePCLRaw.core.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/System.Text.Encodings.Web.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/System.Text.Json.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.csproj.AssemblyReference.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.AssemblyInfoInputs.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.AssemblyInfo.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.csproj.CoreCompileInputs.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.MvcApplicationPartsAssemblyInfo.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorAssemblyInfo.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorAssemblyInfo.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/staticwebassets/AgileGame.StaticWebAssets.Manifest.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/staticwebassets/AgileGame.StaticWebAssets.xml
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/scopedcss/bundle/AgileGame.styles.css
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.TagHelpers.input.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.TagHelpers.output.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorCoreGenerate.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Board/Board.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Board/Card/AddCard.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Error.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Index.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Kanban.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Privacy.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Shared/_Layout.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorTargetAssemblyInfo.cache
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.RazorTargetAssemblyInfo.cs
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.Views.pdb
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.csproj.CopyComplete
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.dll
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.pdb
+/Users/pc/Projects/AgileGame/obj/Release/netcoreapp3.1/AgileGame.genruntimeconfig.cache
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/web.config
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/AgileGame.deps.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/AgileGame.runtimeconfig.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/appsettings.Development.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/appsettings.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/agilegameapp/web.config
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/agilegameapp/AgileGame.deps.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/agilegameapp/AgileGame.runtimeconfig.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/agilegameapp/appsettings.Development.json
+/Users/pc/Projects/AgileGame/bin/Release/netcoreapp3.1/agilegameapp/agilegameapp/agilegameapp/appsettings.json
