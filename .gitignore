@@ -1,1 +1,11 @@
-*.dll, *.pdb, *.so, *.dylib
+*.dll
+*.pdb
+*.so
+*.dylib
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
+
