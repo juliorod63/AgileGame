@@ -46,6 +46,13 @@ namespace AgileGame.Pages.Board
             }
             
         }
+
+        public PartialViewResult OnGetCardDetailPartial(){
+
+            
+            Console.WriteLine("pasamos por PartialViewResult");
+            return new PartialViewResult{ViewName ="_CardDetailPartial"};
+        }
         private void CrearColumnas(){
 
             Column Backlog = new Column();

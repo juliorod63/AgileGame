@@ -18,6 +18,11 @@
             revert: "invalid"
         });
 
+        $(".card").dblclick(function () {
+            console.log("CardID :" + $(this).attr("id") + " Titulo: " + $(this).attr("titulo") );
+            //$("#Parcial").load("/Board/Board?OnGetCardDetailPartial");
+        });
+
         $('.column').droppable({
             accept: '.draggable',
             drop: function (event, ui) {
@@ -51,12 +56,17 @@
         <h3 >Tablero: @Model.Id - @Model.Nombre    </h3>
     </div>
 
-    <div class="row">
+    <div class="row" >
         <div class="col s10">
             <a asp-page="/Board/Card/AddCard" asp-route-id=@Model.Id asp-route-name=@Model.Nombre class="wave-effect waves-light btn">
                 Agregar Tarjeta
             </a>
         </div>
+
+        <div id="Parcial">
+        @Html.Partial("_CardDetailPartial")
+        </div>
+        
     </div>
     <div class="row">
         @foreach (var column in Model.Columnas)
@@ -69,7 +79,7 @@
                     
                     @foreach (var card in column.Cards)
                     {
-                        <div class="card draggable blue-grey darken-1 " id="@card.Id">
+                        <div class="card draggable blue-grey darken-1 " id="@card.Id" titulo="@card.Titulo">
                             <div class="card-content white-text">
                                 <p>@card.Titulo</p>
                                
