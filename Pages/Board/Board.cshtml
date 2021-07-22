@@ -19,9 +19,17 @@
         });
 
         $(".card").dblclick(function () {
-            console.log("CardID :" + $(this).attr("id") + " Titulo: " + $(this).attr("titulo") );
-            //$("#Parcial").load("/Board/Board?OnGetCardDetailPartial");
-        });
+            console.log("CardId: "+ $(this).attr("titulo"));
+            var placeholderElement = $('#modal-placeholder');
+
+            $.get("/Board/Board?handler=CardDetail&tableroId="+ @Model.Id +"&id="+$(this).attr("id")).done(function (data) 
+            {
+                console.log(data);
+                placeholderElement.html(data);
+                placeholderElement.find('.modal').modal('show');
+        })});
+           
+        
 
         $('.column').droppable({
             accept: '.draggable',
@@ -63,11 +71,12 @@
             </a>
         </div>
 
-        <div id="Parcial">
-        @Html.Partial("_CardDetailPartial")
-        </div>
+
         
     </div>
+        <div id="modal-placeholder">
+        
+        </div>
     <div class="row">
         @foreach (var column in Model.Columnas)
         {

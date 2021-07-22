@@ -46,12 +46,20 @@ namespace AgileGame.Pages.Board
             }
             
         }
-
-        public PartialViewResult OnGetCardDetailPartial(){
+    
+        public PartialViewResult OnGetCardDetail( int tableroId, int id){
+            Console.WriteLine("pasamos por PartialViewResult. Card ID: " + id + " TableroId: " + tableroId);
+            AgileGame.Models.Card miTarjeta = new AgileGame.Models.Card();
+            miTarjeta.Id = id;
+            miTarjeta.Titulo = "Tarjeta de Partial View";
+            miTarjeta.TableroID = 2;
+            miTarjeta.Descripcion ="Esta es la descripción de la Tarjeta";
+            miTarjeta.Horas= 40;
+            miTarjeta.Valor= 7500;
 
             
-            Console.WriteLine("pasamos por PartialViewResult");
-            return new PartialViewResult{ViewName ="_CardDetailPartial"};
+            return Partial("_CardDetailPartial",miTarjeta);
+
         }
         private void CrearColumnas(){
 
