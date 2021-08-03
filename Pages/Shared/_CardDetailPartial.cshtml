@@ -1,14 +1,26 @@
 @model AgileGame.Models.Card
 
-<div class="modal fade" role="dialog" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered" role="document" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+<div class="modal fade" role="dialog"  aria-hidden="true" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog modal-dialog-centered" role="document" >
             <div class="modal-content">
-                <h3>Esta es una Partial View</h3>
-                <p>Detalle de la Tarjeta</p>
-                <p>Titulo: @Model.Titulo</p>
-                <p>Descripción: @Model.Descripcion</p>
-                <p>Valor $ @Model.Valor</p>
-                <p>Esfuerzo hs: @Model.Horas</p>
+                <div class="modal-header">
+                <h2 class="modal-title">Tarjeta Nro @Model.Id</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <p><b>Titulo:</b> @Model.Titulo</p>
+                    <p><b>Descripción:</b> @Model.Descripcion</p>
+                    <p><b>Valor $</b> @Model.Valor</p>
+                    <p><b>Esfuerzo hs:</b> @Model.Horas</p>
+                    <p><b>Restante hs:</b> @Model.Restantes</p>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
             </div>
  
     </div>

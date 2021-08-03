@@ -19,12 +19,12 @@
         });
 
         $(".card").dblclick(function () {
-            console.log("CardId: "+ $(this).attr("titulo"));
+            //console.log("CardId: "+ $(this).attr("titulo"));
             var placeholderElement = $('#modal-placeholder');
 
             $.get("/Board/Board?handler=CardDetail&tableroId="+ @Model.Id +"&id="+$(this).attr("id")).done(function (data) 
             {
-                console.log(data);
+                //console.log(data);
                 placeholderElement.html(data);
                 placeholderElement.find('.modal').modal('show');
         })});
@@ -32,13 +32,31 @@
         
 
         $('.column').droppable({
-            accept: '.draggable',
+            accept: function () {
+                
+                var droppedColumn = $(this);
+                var cantidad = droppedColumn[0].getElementsByClassName('card-content').length;
+                //console.log("Cantidad de Tarjetas: "+  cantidad);
+
+                if (cantidad > 7 && (droppedColumn[0].id != 0) && (droppedColumn[0].id != 4)){
+                    
+                    console.log("C: " + droppedColumn[0].id + "cant: " + cantidad );
+                    alert('Ha excedido el WiP');
+                    return false;  
+                }
+                else
+                {
+                    return true;
+                }
+
+                },
             drop: function (event, ui) {
                 var dropped = ui.draggable;
                 var droppedOn = $(this);
-                
+
                 $(dropped).detach().css({ top: 0, left: 0 }).appendTo(droppedOn);
                     console.log(dropped[0].id, droppedOn[0].id);
+                    
                     $.ajax({
                         type: "POST",
                         dataType: "json",
@@ -60,6 +78,9 @@
 
 
 <div class="container">
+    <div id="modal-placeholder">
+        
+    </div>
     <div class="row">
         <h3 >Tablero: @Model.Id - @Model.Nombre    </h3>
     </div>
@@ -69,14 +90,9 @@
             <a asp-page="/Board/Card/AddCard" asp-route-id=@Model.Id asp-route-name=@Model.Nombre class="wave-effect waves-light btn">
                 Agregar Tarjeta
             </a>
-        </div>
-
-
-        
+        </div>  
     </div>
-        <div id="modal-placeholder">
-        
-        </div>
+
     <div class="row">
         @foreach (var column in Model.Columnas)
         {
@@ -84,7 +100,7 @@
                 <h3 style="text-align:center">@column.Title (@column.Limite) </h3> 
                 <hr/>
 
-                <div class="column" style="min-height: 600px" id="@column.Id">
+                <div class="column" style="min-height: 600px" id="@column.Id" > 
                     
                     @foreach (var card in column.Cards)
                     {
@@ -103,6 +119,6 @@
                 </div>
             </div>
         }
-        
+        <input type="hidden" value="@Model.Columnas"/>
     </div>
 </div>

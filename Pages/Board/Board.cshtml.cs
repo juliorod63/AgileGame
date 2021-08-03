@@ -44,18 +44,17 @@ namespace AgileGame.Pages.Board
                     Columnas[c.ColumnaID].Cards.Add(c);
                 }
             }
+
+            //Console.WriteLine("Nro Cards: " + Columnas[0].Cards.Count());
             
         }
     
         public PartialViewResult OnGetCardDetail( int tableroId, int id){
-            Console.WriteLine("pasamos por PartialViewResult. Card ID: " + id + " TableroId: " + tableroId);
+            
+            Tarjetas =  db.Tarjetas.ToList();
+            //Console.WriteLine("pasamos por PartialViewResult. Card ID: " + id + " TableroId: " + tableroId);
             AgileGame.Models.Card miTarjeta = new AgileGame.Models.Card();
-            miTarjeta.Id = id;
-            miTarjeta.Titulo = "Tarjeta de Partial View";
-            miTarjeta.TableroID = 2;
-            miTarjeta.Descripcion ="Esta es la descripción de la Tarjeta";
-            miTarjeta.Horas= 40;
-            miTarjeta.Valor= 7500;
+            miTarjeta = Tarjetas.First(s => s.Id == id);
 
             
             return Partial("_CardDetailPartial",miTarjeta);
@@ -97,6 +96,7 @@ namespace AgileGame.Pages.Board
             Done.Id=4;
             
             Columnas.Add(Done);
+           
         }
 
         private void RecuperarTarjetas(){
@@ -118,15 +118,7 @@ namespace AgileGame.Pages.Board
                  return;
             }
 
-            AgileGame.Models.Card c1= new AgileGame.Models.Card();
-            c1.Id = rnd.Next(1,max);
-            c1.Titulo = "Tarea " + c1.Id;
-            columna.Cards.Add(c1);
-            
-            AgileGame.Models.Card c2= new AgileGame.Models.Card();
-            c2.Id = rnd.Next(1,max);
-            c2.Titulo = "Tarea " + c2.Id;
-            columna.Cards.Add(c2);
+
 
         }
 

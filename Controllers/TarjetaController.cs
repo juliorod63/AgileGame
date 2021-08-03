@@ -21,7 +21,7 @@ namespace AgileGame.Controllers
         public TarjetaController(AgileGameContext agileGameContext){
             
             _db = agileGameContext;
-            Console.WriteLine ("paso por x el ctor TarjetaController");
+            //Console.WriteLine ("paso por x el ctor TarjetaController");
         }
 
         [HttpPost("movertarjeta")]
@@ -29,20 +29,41 @@ namespace AgileGame.Controllers
         {
 
             //MoverTarjeta card = JsonSerializer.Deserialize<MoverTarjeta>(contenido.ToString());
-            Console.WriteLine("llamada movertarjeta tarjeta id:" + contenido.cardId + " columna: " + contenido.columnaId);
             mueveTarjeta(contenido);
             return Content("Tarjeta " + contenido.cardId + " ha sido movida de columna " + contenido.columnaId);
+
+
+            
         }
 
         private void mueveTarjeta(MoverTarjeta tarjeta){
 
             var card = _db.Tarjetas.SingleOrDefault(x => x.Id == tarjeta.cardId);
-            Console.WriteLine ("tarjeta recibida");
+            //Console.WriteLine ("tarjeta recibida");
             card.ColumnaID = tarjeta.columnaId;
             _db.SaveChanges();
-            Console.WriteLine ("tarjeta actualizada" + tarjeta.columnaId);
+            //Console.WriteLine ("tarjeta actualizada" + tarjeta.columnaId);
         }
 
+        private bool wipExcedido(MoverTarjeta tar){
+            //finalmente esta funcion no se utiliza, pues lo he resuelto por jQuery.
+            
+            bool excedido =false;
+            if(tar.columnaId == 0)
+                excedido=false;
+            else{
+                _db.Tarjetas.All<AgileGame.Models.Card>(c => c.ColumnaID == tar.columnaId);
+                Console.WriteLine("WipExcedido: Cantidad de Tarjetas: " + _db.Tarjetas.Count());
+                if(_db.Tarjetas.Count()>= 3){
+                    excedido=true;
+                }
+                else{
+                    excedido= false;
+                }
+            }
+
+            return excedido;
+        }
 
     }
 }
