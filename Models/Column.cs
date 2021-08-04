@@ -7,5 +7,7 @@ namespace AgileGame.Models{
         public string Title { get; set; }
         public int Limite{get;set;} 
         public List<Card> Cards { get; set; } = new List<Card>();
+
+        public int TableroID{get;set;}
     }
 }
