@@ -38,7 +38,7 @@
                 var cantidad = droppedColumn[0].getElementsByClassName('card-content').length;
                 //console.log("Cantidad de Tarjetas: "+  cantidad);
 
-                if (cantidad > 7 && (droppedColumn[0].id != 0) && (droppedColumn[0].id != 4)){
+                if (cantidad > 5 && (droppedColumn[0].id != 0) && (droppedColumn[0].id != 4)){
                     
                     console.log("C: " + droppedColumn[0].id + "cant: " + cantidad );
                     alert('Ha excedido el WiP');
@@ -83,21 +83,29 @@
     </div>
     <div class="row">
         <h3 >Tablero: @Model.Id - @Model.Nombre    </h3>
+        
     </div>
 
     <div class="row" >
-        <div class="col s10">
-            <a asp-page="/Board/Card/AddCard" asp-route-id=@Model.Id asp-route-name=@Model.Nombre class="wave-effect waves-light btn">
-                Agregar Tarjeta
+        <div class="col-sm-1">
+            <a asp-page="/Board/Card/AddCard" asp-route-id=@Model.Id asp-route-name=@Model.Nombre class="waves-effect waves-circle btn-floating">
+                <i class="material-icons">add</i>
             </a>
         </div>  
+        <div class="col-sm-10">
+             
+        </div>
+       <div class="col-sm-1"> 
+           <a asp-page="/Board/BoardSettings" class="waves-circle btn-floating"> <i class="material-icons">settings</i>  </a>
+        </div>
+           
     </div>
 
     <div class="row">
         @foreach (var column in Model.Columnas)
         {
             <div class="col m4">
-                <h3 style="text-align:center">@column.Title (@column.Limite) </h3> 
+                <h4 style="text-align:center">@column.Title (@column.Limite) </h4> 
                 <hr/>
 
                 <div class="column" style="min-height: 600px" id="@column.Id" > 

@@ -20,7 +20,7 @@ namespace AgileGame.Pages.Board
         public string Nombre;
         public int Id;
 
-        public List<Column> Columnas { get; set; } = new List<Column>();
+        public List<Column> Columnas  = new List<Column>();
 
         private List<AgileGame.Models.Card> Tarjetas = new List<AgileGame.Models.Card>();
         public BoardModel(ILogger<PrivacyModel> logger, AgileGameContext db) 
@@ -34,8 +34,10 @@ namespace AgileGame.Pages.Board
             Nombre = nombre;
             Id=id;
 
-            CrearColumnas();
+            CargarColumnas(id);
 
+            //CrearColumnas();
+            
             
             Tarjetas = await db.Tarjetas.ToListAsync();
             foreach(AgileGame.Models.Card c in Tarjetas){
@@ -49,6 +51,10 @@ namespace AgileGame.Pages.Board
             
         }
     
+        private void CargarColumnas(int tableroId){
+            Columnas = db.Columnas.FromSqlRaw("select * from Columnas where Tableroid=" +  tableroId ).ToList();
+            Console.WriteLine(Columnas.ToString());
+        }
         public PartialViewResult OnGetCardDetail( int tableroId, int id){
             
             Tarjetas =  db.Tarjetas.ToList();
