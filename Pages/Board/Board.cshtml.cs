@@ -66,6 +66,13 @@ namespace AgileGame.Pages.Board
             return Partial("_CardDetailPartial",miTarjeta);
 
         }
+
+        public PartialViewResult OnGetBoardSettings(int tableroID){
+
+            CargarColumnas(tableroID);
+            //Console.WriteLine("columnas: " + Columnas.Count());
+            return Partial("_BoardSettingPartial", Columnas );
+        }
         private void CrearColumnas(){
 
             Column Backlog = new Column();

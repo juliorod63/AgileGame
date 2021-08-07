@@ -29,7 +29,17 @@
                 placeholderElement.find('.modal').modal('show');
         })});
            
-        
+        $("#setting").click(function(){
+            var placeholderElement = $('#modal-placeholder');
+            $.get("/Board/Board?handler=BoardSettings&tableroId="+ @Model.Id).done(function (data) 
+            {
+                //console.log(data);
+                placeholderElement.html(data);
+                placeholderElement.find('.modal').modal('show');
+            }
+           
+            
+        )});
 
         $('.column').droppable({
             accept: function () {
@@ -38,7 +48,7 @@
                 var cantidad = droppedColumn[0].getElementsByClassName('card-content').length;
                 //console.log("Cantidad de Tarjetas: "+  cantidad);
 
-                if (cantidad > 5 && (droppedColumn[0].id != 0) && (droppedColumn[0].id != 4)){
+                if (cantidad > 5 && (droppedColumn[0].id != 1) && (droppedColumn[0].id != 5)){
                     
                     console.log("C: " + droppedColumn[0].id + "cant: " + cantidad );
                     alert('Ha excedido el WiP');
@@ -95,8 +105,8 @@
         <div class="col-sm-10">
              
         </div>
-       <div class="col-sm-1"> 
-           <a asp-page="/Board/BoardSettings" class="waves-circle btn-floating"> <i class="material-icons">settings</i>  </a>
+        <div class="col-sm-1" id="setting"> 
+            <a class="waves-effect waves-circle btn-floating"><i class="material-icons">settings</i> </a>
         </div>
            
     </div>

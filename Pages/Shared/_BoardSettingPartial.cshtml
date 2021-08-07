@@ -1,15 +1,28 @@
-@model AgileGame.Models.Column
+@model List<AgileGame.Models.Column> 
 
 <div class="modal fade" role="dialog"  aria-hidden="true" aria-labelledby="exampleModalLabel">
     <div class="modal-dialog modal-dialog-centered" role="document" >
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2 class="modal-title">Tarjeta Nro</h2>
+                    <h2 class="modal-title">Tablero </h2>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                    <p><b>Titulo:</b>  </p>
+                    <p><b>Tablero ID:</b> </p>
+                    
+                    <p><b>Cantidad: </b> @Model.Count()/p>
                 </div>
 
+                <div class="modal-body">
+
+                
+                    @foreach (var col in Model)
+                    {
+                    <p> Nombre: @col.Title Max WiP: @col.Limite</p>
+
+                    }
+                </div>
             </div>
     </div>
 </div>
