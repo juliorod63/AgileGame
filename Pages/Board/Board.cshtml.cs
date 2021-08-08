@@ -67,11 +67,21 @@ namespace AgileGame.Pages.Board
 
         }
 
-        public PartialViewResult OnGetBoardSettings(int tableroID){
+        public PartialViewResult OnGetBoardSettings(int tableroID, string nombre){
 
             CargarColumnas(tableroID);
             //Console.WriteLine("columnas: " + Columnas.Count());
-            return Partial("_BoardSettingPartial", Columnas );
+            AgileGame.ViewModels.TableroColumnas tableroColumnas = new ViewModels.TableroColumnas();
+            tableroColumnas.Columnas = Columnas;
+            Tablero esteTablero = new Tablero();
+            esteTablero.Id = tableroID;
+            esteTablero.Title = nombre;
+
+            tableroColumnas.MiTablero = esteTablero;
+
+
+            Nombre = nombre;
+            return Partial("_BoardSettingPartial", tableroColumnas );
         }
         private void CrearColumnas(){
 

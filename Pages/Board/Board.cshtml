@@ -21,7 +21,7 @@
         $(".card").dblclick(function () {
             //console.log("CardId: "+ $(this).attr("titulo"));
             var placeholderElement = $('#modal-placeholder');
-
+            
             $.get("/Board/Board?handler=CardDetail&tableroId="+ @Model.Id +"&id="+$(this).attr("id")).done(function (data) 
             {
                 //console.log(data);
@@ -31,7 +31,9 @@
            
         $("#setting").click(function(){
             var placeholderElement = $('#modal-placeholder');
-            $.get("/Board/Board?handler=BoardSettings&tableroId="+ @Model.Id).done(function (data) 
+            var url = "/Board/Board?handler=BoardSettings&tableroId="+ @Model.Id+"&nombre=DES";
+            console.log(url);
+            $.get(url).done(function (data) 
             {
                 //console.log(data);
                 placeholderElement.html(data);
@@ -115,7 +117,11 @@
         @foreach (var column in Model.Columnas)
         {
             <div class="col m4">
-                <h4 style="text-align:center">@column.Title (@column.Limite) </h4> 
+                <h4 style="text-align:center">@column.Title 
+                    @{
+                        if((@column.Id!=1)&(@column.Id!=5))  @column.Limite
+                    } 
+                </h4> 
                 <hr/>
 
                 <div class="column" style="min-height: 600px" id="@column.Id" > 
