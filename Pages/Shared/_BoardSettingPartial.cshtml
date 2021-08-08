@@ -1,10 +1,5 @@
 @model AgileGame.ViewModels.TableroColumnas
 
-    @{
-    
-
-    }
-
 <div class="modal fade" role="dialog"  aria-hidden="true" aria-labelledby="exampleModalLabel">
     <div class="modal-dialog modal-dialog-centered" role="document" >
             <div class="modal-content">
@@ -15,7 +10,7 @@
                     </button>
 
                 </div>
-
+    <form method="post">
                 <div class="modal-body">
 
                     <p><b>Titulo:</b>@Model.MiTablero.Title </p>
@@ -25,10 +20,18 @@
                     <hr/>
                     @foreach (var col in Model.Columnas)
                     {
-                    <p> <b>Nombre:</b> @col.Title <b>Max WiP:</b> @col.Limite</p>
+                    <label>@col.Title  --> </label> 
+                    <label>Max WiP:</label> <input asp-for=@col.Limite /> 
 
                     }
                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn summit">Actualizar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+    </form>
             </div>
+   
     </div>
 </div>
