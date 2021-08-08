@@ -31,7 +31,8 @@
            
         $("#setting").click(function(){
             var placeholderElement = $('#modal-placeholder');
-            var url = "/Board/Board?handler=BoardSettings&tableroId="+ @Model.Id+"&nombre=DES";
+            var tit = "Desarrollo";
+            var url = "/Board/Board?handler=BoardSettings&tableroId="+ @Model.Id+"&nombre=" + tit;
             console.log(url);
             $.get(url).done(function (data) 
             {
@@ -52,7 +53,7 @@
 
                 if (cantidad > 5 && (droppedColumn[0].id != 1) && (droppedColumn[0].id != 5)){
                     
-                    console.log("C: " + droppedColumn[0].id + "cant: " + cantidad );
+                    //console.log("C: " + droppedColumn[0].id + "cant: " + cantidad );
                     alert('Ha excedido el WiP');
                     return false;  
                 }
@@ -67,7 +68,7 @@
                 var droppedOn = $(this);
 
                 $(dropped).detach().css({ top: 0, left: 0 }).appendTo(droppedOn);
-                    console.log(dropped[0].id, droppedOn[0].id);
+                    //console.log(dropped[0].id, droppedOn[0].id);
                     
                     $.ajax({
                         type: "POST",
@@ -119,7 +120,10 @@
             <div class="col m4">
                 <h4 style="text-align:center">@column.Title 
                     @{
-                        if((@column.Id!=1)&(@column.Id!=5))  @column.Limite
+                        if((@column.Id!=1)&(@column.Id!=5)&(@column.Id!=6)&(@column.Id!=10)) 
+                        { 
+                           <strong>[</strong> @column.Limite <strong>]</strong>                        
+                        }
                     } 
                 </h4> 
                 <hr/>

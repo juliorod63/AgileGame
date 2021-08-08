@@ -43,17 +43,18 @@ namespace AgileGame.Pages.Board
             foreach(AgileGame.Models.Card c in Tarjetas){
                 //Console.WriteLine(c.Titulo + "-" + c.ColumnaID);
                 if(c.TableroID == Id){
-                    Columnas[c.ColumnaID].Cards.Add(c);
+                    foreach(AgileGame.Models.Column col in Columnas){
+                        if(col.Id == c.ColumnaID)col.Cards.Add(c);
+                    }
+                    
                 }
             }
-
-            //Console.WriteLine("Nro Cards: " + Columnas[0].Cards.Count());
             
         }
     
         private void CargarColumnas(int tableroId){
             Columnas = db.Columnas.FromSqlRaw("select * from Columnas where Tableroid=" +  tableroId ).ToList();
-            Console.WriteLine(Columnas.ToString());
+            //Console.WriteLine(Columnas.ToString());
         }
         public PartialViewResult OnGetCardDetail( int tableroId, int id){
             
@@ -122,35 +123,6 @@ namespace AgileGame.Pages.Board
            
         }
 
-        private void RecuperarTarjetas(){
-
-
-        }
-        private void CargarTarjetas(Column columna){
-            Random rnd = new Random();
-            int max= 1000;
-            if(columna.Title == "Backlog"){
-                
-                for(int k=1; k<=7; k++){
-                    
-                    AgileGame.Models.Card c= new AgileGame.Models.Card();
-                    c.Id = rnd.Next(1,max);
-                    c.Titulo = "Tarea " + c.Id;
-                    columna.Cards.Add(c);
-                }
-                 return;
-            }
-
-
-
-        }
-
-
-
-
     }
-
-
-
 
 }
