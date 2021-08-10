@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using AgileGame.Models;
 using AgileGame.Data;
+using Microsoft.EntityFrameworkCore;
+
 public class AddCardModel : PageModel{
     [BindProperty]
     public Card Tarjeta {get;set;}
@@ -28,14 +30,16 @@ public class AddCardModel : PageModel{
         MiTablero = new Tablero();
         MiTablero.Title = name;
         MiTablero.Id = Id;
-        //Console.WriteLine ("GET parametros: " + MiTablero.Title + "-" + MiTablero.Id);
+       
+
+        //Console.WriteLine ("GET parametros: " + MiTablero.Title + "-" + MiTablero.Id + " - Columnas: " + MiTablero.Columnas.Count());
 
     }
 
     public IActionResult OnPost(){
-
-        //Console.WriteLine("Nombre Tablero: " + MiTablero.Title);
-        Tarjeta.ColumnaID = 0;
+        int idTablero = MiTablero.Id;
+        MiTablero.Columnas = _db.Columnas.FromSqlRaw("select * from columnas where tableroid=" + idTablero).ToList();
+        Tarjeta.ColumnaID = MiTablero.Columnas[0].Id;
         GuardarTarjeta();
         return  Redirect("/Board/Board?nombre=" + MiTablero.Title + "&Id=" + MiTablero.Id );
 

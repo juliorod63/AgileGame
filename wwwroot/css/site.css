@@ -73,3 +73,7 @@ body {
 .material-icons{
   vertical-align: middle;
 }
+
+.modal{
+  max-height: 100% !important;
+}

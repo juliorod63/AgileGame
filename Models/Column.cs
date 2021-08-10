@@ -9,5 +9,7 @@ namespace AgileGame.Models{
         public List<Card> Cards { get; set; } = new List<Card>();
 
         public int TableroID{get;set;}
+
+        public int idPosicion {get;set;}
     }
 }
