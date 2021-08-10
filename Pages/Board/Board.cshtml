@@ -57,7 +57,7 @@
 
                  if (cantidad > 3 && (droppedColumn[0].id != 1) && (droppedColumn[0].id != 5)){
                         //console.log("C: " + droppedColumn[0].id + "cant: " + cantidad );
-                        alert('Ha excedido el WiP');
+                        alert('Has excedido el WiP Máximo');
                         location.reload();
                         return false; 
 
@@ -95,8 +95,17 @@
                 <i class="material-icons">add</i>
             </a>
         </div>  
-        <div class="col-sm-10">
-             
+        <div class="col-sm-1">
+            <partial name="_EquipoJuegoPartial"  />
+        </div>  
+        <div class="col-sm-3">
+            <partial name="_AvanceJuegoPartial" />
+        </div>
+        <div class="col-sm-4">
+            <partial name="_HeaderJuegoPartial" />
+        </div>        
+        <div class="col-sm-2">
+             <partial name="_GraficosJuegoPartial"/>
         </div>
         <div class="col-sm-1" id="setting"> 
             <a class="waves-effect waves-circle btn-floating"><i class="material-icons">settings</i> </a>
