@@ -76,4 +76,11 @@ body {
 
 .modal{
   max-height: 100% !important;
+  opacity: 0.9;
+  fill:transparent;
+}
+
+.numero {
+  font-size: medium;
+  font-weight: bolder;
 }

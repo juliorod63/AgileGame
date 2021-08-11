@@ -31,7 +31,7 @@
            
         $("#setting").click(function(){
             var placeholderElement = $('#modal-placeholder');
-            var tit = "Desarrollo";
+            var tit = "";
             var url = "/Board/Board?handler=BoardSettings&tableroId="+ @Model.Id+"&nombre=" + tit;
             console.log(url);
             $.get(url).done(function (data) 
@@ -85,7 +85,7 @@
         
     </div>
     <div class="row">
-        <h3 >Tablero: @Model.Id - @Model.Nombre    </h3>
+        <h4 >Tablero: @Model.Id - @Model.Nombre    </h4>
         
     </div>
 
@@ -117,14 +117,14 @@
         @foreach (var column in Model.Columnas)
         {
             <div class="col m4">
-                <h4 style="text-align:center">@column.Title 
+                <h5 style="text-align:center">@column.Title 
                     @{
                         if((@column.idPosicion!=1)&(@column.idPosicion!=5)) 
                         { 
                            <strong>[</strong> @column.Limite <strong>]</strong>                        
                         }
                     } 
-                </h4> 
+                </h5> 
                 <hr/>
 
                 <div class="column" style="min-height: 600px" id="@column.Id" > 

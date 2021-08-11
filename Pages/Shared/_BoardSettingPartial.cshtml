@@ -20,8 +20,10 @@
                     <hr/>
                     @foreach (var col in Model.Columnas)
                     {
-                    <label>@col.Title  --> </label> 
-                    <label>Max WiP:</label> <input asp-for=@col.Limite /> 
+                        @if(col.idPosicion !=1 && col.idPosicion!=5){
+                            <label>@col.Title  --> </label> 
+                            <label>Max WiP:</label> <input asp-for=@col.Limite /> 
+                        }
 
                     }
                 </div>

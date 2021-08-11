@@ -68,6 +68,9 @@ namespace AgileGame.Pages.Board
 
         }
 
+        public PartialViewResult OnGetConfigurarPartida(int tableroId){
+            return Partial("_ConfigurarJuegoPartial");
+        }
         public PartialViewResult OnGetBoardSettings(int tableroID, string nombre){
 
             CargarColumnas(tableroID);

@@ -1,4 +1,18 @@
 
 <div>
-    <i class="small material-icons">people</i>
+    <i class="small material-icons" id="equipo">people</i>
 </div>
+
+<script type="text/javascript">
+    $("#equipo").click(function(){
+        var placeholderElement = $('#modal-placeholder');
+        
+        $.get("/Board/Board?handler=ConfigurarPartida&tableroId="+ @Model.Id).done(function (data) 
+            {
+                //console.log(data);
+                placeholderElement.html(data);
+                placeholderElement.find('.modal').modal('show');
+        })
+    });
+
+</script>
